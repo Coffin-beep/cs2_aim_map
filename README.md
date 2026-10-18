@@ -5,7 +5,9 @@
 ## Что внутри
 
 - [`docs/aim_training_v1_guide.md`](docs/aim_training_v1_guide.md) — полный план сборки: пошаговая инструкция по Hammer, точные KeyValues и координаты всех энтити, логика выдачи оружия и респавна, чек-лист перед компиляцией, консольные команды для теста, таблица типовых ошибок.
+- [`docs/aim_training_v1_run.md`](docs/aim_training_v1_run.md) — полный ранбук запуска: установка Workshop Tools, создание аддона, компиляция, три способа запустить карту, приёмочный обход, цикл правок, публикация в Workshop.
 - [`cfg/aim_training_v1_test.cfg`](cfg/aim_training_v1_test.cfg) — готовый тестовый конфиг (положить в `...\game\csgo\cfg\`, запускать `exec aim_training_v1_test`).
+- [`docs/aim_training_v1_no_rtx.md`](docs/aim_training_v1_no_rtx.md) — что делать, если видеокарта без аппаратного ray tracing (нет RTX): как всё равно собрать, запустить и оттестировать карту и где потом один раз запечь свет.
 
 ## Кратко про карту
 

@@ -80,6 +80,8 @@ game\csgo_addons\aim_training_v1\maps\        <- сюда компилятор �
 | **Full Compile**, Lightmap **1024**, Quality **Standard** | Проверить свет и тени | десятки минут |
 | **Full Compile**, Lightmap **4096**, Quality **Final** | Релиз/публикация | час+ |
 
+**Нет видеокарты с RTX:** стадия света (`-bakelighting` / Generate Lightmaps) не запустится — VRAD3 требует аппаратного RT. Карта всё равно собирается и играется: `F9 → Custom Settings` → выключить **Generate Lightmaps** → Build → в игре `mat_fullbright 1`. Подробно, плюс как один раз запечь свет на чужой машине с RTX — [`aim_training_v1_no_rtx.md`](aim_training_v1_no_rtx.md).
+
 Что делать, если компиляция падает — см. §9 основного гайда (VRAD3, драйвер GPU, встройка Ryzen, ручной запуск `resourcecompiler.exe`).
 
 **Проверь результат:** после успешной компиляции должен появиться файл
